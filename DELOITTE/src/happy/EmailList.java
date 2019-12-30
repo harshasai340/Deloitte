@@ -1,13 +1,10 @@
 package happy;
 import java.util.*;
-public class EmailTable {
+public class EmailList {
 	
 	
 public static void main(String[] args) {
-	String[] emails = {"axc@yahoo.com","abc@hotmail.com","zzbc@gmail.com","abcgfg@yahoo.com",
-			"axcc@yahoo.com","abddc@gmail.com","abc@hotmail.com","abc@aol.com","abc@protonmail.com","abc@hotmail.com",
-			"abc@yahoo.com","abc@hotmail.com","abc@aol.com","abc@gmail.com","abc@hotmail.com","abc@rediffmail.com",
-			"abc@deloitte.com","abc@others.com","abc@yahoo.com","abc@gmail.com"};
+	String[] emails = (","abc@rediffmail.;
 	
 	
 	ArrayList <String> gmail = new ArrayList<String>();

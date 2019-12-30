@@ -1,5 +1,6 @@
 package happy;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Water {
@@ -11,10 +12,10 @@ public class Water {
 		{
 			a= sc.nextInt();
 		    b= sc.nextInt();
-		    c= a+b;
+		    c= a/b;
 			System.out.println("sum is " +c);
 		}
-		catch(java.util.InputMismatchException e) {
+		catch(java.util.InputMismatchException e | IOException | NumberFormatException) {
 			System.out.println("Input mismatch occured");
 		}
 		
